@@ -55,7 +55,4 @@ PRODUCT_PACKAGES += \
 ifeq ($(TARGET_HAVE_SAMSUNG_DAP),true)
 PRODUCT_PACKAGES += \
     libswdap
-
-PRODUCT_COPY_FILES += \
-    vendor/samsung/starlte/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
 endif
